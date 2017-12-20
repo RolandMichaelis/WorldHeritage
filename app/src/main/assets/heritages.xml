@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<heritagePack name="A">
+    <heritages>
+        <heritage id="1" name="Aachener Dom" registered="1978" type="C" country="de"
+            text="Der Aachener Dom, auch Hoher Dom zu Aachen, Aachener Münster oder Aachener Marienkirche, ist die Bischofskirche des Bistums Aachen und das bedeutendste Wahrzeichen der Stadt Aachen."
+            search="Aachener Dom"
+            navi="Aachener Dom, Domhof 1, 52062 Aachen" />
+        <heritage id="2" name="Bauhaus Dessau" registered="1996" type="C" country="de"
+            text="Das Bauhaus Dessau, auch Bauhausgebäude Dessau, ist ein Gebäudekomplex in Dessau-Roßlau. Das Bauhausgebäude entstand 1925 bis 1926 nach Plänen von Walter Gropius als Schulgebäude für die Kunst-, Design- und Architekturschule Bauhaus."
+            search="Bauhaus Dessau"
+            navi="Bauhaus Dessau, Gropiusallee 38, 06846 Dessau" />
+        <heritage id="3" name="Speyerer Dom" registered="1981" type="C" country="de"
+            text="Als Speyerer Dom wird der Kaiser- und Mariendom zu Speyer (offizielle Bezeichnung: Domkirche St. Maria und St. Stephan) bezeichnet. Er steht in der rheinland-pfälzischen Stadt Speyer und ist die Kathedralkirche der katholischen Diözese Speyer und Pfarrkirche der Dompfarrei."
+            search="Speyerer Dom"
+            navi="Domplatz, 67346 Speyer" />
+        <heritage id="4" name="Würzburger Residenz und Hofgarten" registered="1981" type="C" country="de"
+            text="Die Würzburger Residenz ist ein barocker Residenzbau am Rande der Innenstadt von Würzburg, der 1719 begonnen wurde und bis 1744 vollendet war. Sie diente bis zur Auflösung der geistlichen Territorien durch die Säkularisation als Sitz der Würzburger Fürstbischöfe."
+            search="Würzburger Residenz und Hofgarten"
+            navi="Residenzplatz 2, 97070 Würzburg" />
+        <heritage id="5" name="Wallfahrtskirche „Die Wies“" registered="1983" type="C" country="de"
+            text="Die Wieskirche ist eine bemerkenswert prächtig ausgestattete Wallfahrtskirche im zur Gemeinde Steingaden gehörenden Ortsteil Wies im sogenannten bayerischen „Pfaffenwinkel“. Der vollständige Name der Wieskirche lautet Wallfahrtskirche zum Gegeißelten Heiland auf der Wies."
+            search="Wieskirche Steingaden"
+            navi="Wies 12, 86989 Steingaden" />
+        <heritage id="6" name="Alte Buchenwälder und Buchenurwälder" registered="2010" type="N" country="xx"
+            text="Im Juni 2011 wurden die „Alten Buchenwälder Deutschlands“ als Erweiterung der Welterbestätte „Buchenurwälder der Karpaten“ in die Welterbeliste aufgenommen. Standorte in Deutschland: Jasmund, Serrahn, Grumsin, Kellerwald, Hainich."
+            search="Alte Buchenwälder und Buchenurwälder"
+            navi="Laustraße 8, 34537 Bad Wildungen" />
+        <heritage id="7" name="Grube Messel" registered="1995" type="N" country="de"
+            text="Die Fossillagerstätte Grube Messel wurde 1995 als erstes deutsches Naturdenkmal in die Liste des UNESCO-Welterbes aufgenommen. Sie gibt einzigartigen Aufschluss über die frühe Evolution der Säugetiere und dokumentiert die Entwicklungsgeschichte der Erde vor 48 Millionen Jahren."
+            search="Welterbe Grube Messel"
+            navi="Roßdörfer Str. 108, 64409 Messel" />
+        <heritage id="8" name="Wattenmeer" registered="2009" type="N" country="xx"
+            text="Beim Weltnaturerbe Wattenmeer handelt es sich um ein Gebiet von rund 11.500 Quadratkilometern entlang der Küste mit einer Länge von etwa 500 Kilometern. Das Wattenmeer steht schon seit mehr als einer Generation unter Schutz. Im deutschen und dänischen Wattenmeer wurden Nationalparks ausgewiesen, in den Niederlanden Staatliche Naturdenkmale."
+            search="weltkulturerbe wattenmeer unesco"
+            navi="Wattenmeer" />
+
+
+    </heritages>
+</heritagePack>
