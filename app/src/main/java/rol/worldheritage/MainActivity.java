@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < heritageCount; i++) {
             written = false;
             Heritage w = heritagePack.getHeritages().get(i);
-            boolean status = sp.getBoolean("status" + i, false);
+            boolean status = sp.getBoolean("status" + w.getId(), false);
             if (status) {
                 statusPic = getResources().getIdentifier("ic_visited", "drawable", getPackageName());
             }
@@ -226,6 +226,7 @@ public class MainActivity extends AppCompatActivity {
     public void dialog_login(int position) {
         final int p=position;
         Heritage w = heritagePack.getHeritages().get(p);
+        final int nr=w.getId();
         android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(
                 new ContextThemeWrapper(this, android.R.style.Theme_DeviceDefault_Light_Dialog));
 
@@ -234,7 +235,7 @@ public class MainActivity extends AppCompatActivity {
         final View dialogsViewNL = inflater.inflate(R.layout.dialog, null);
 
         final SharedPreferences sp = getPreferences(MODE_PRIVATE);
-        boolean status = sp.getBoolean("status" + p, false);
+        boolean status = sp.getBoolean("status" + nr, false);
         if(status) {
             simpleSwitch = (Switch) dialogsViewNL.findViewById(R.id.simpleSwitch);
             simpleSwitch.setChecked(true);
@@ -252,13 +253,13 @@ public class MainActivity extends AppCompatActivity {
                         String statusSwitch;
                         if (simpleSwitch.isChecked()){
                             SharedPreferences.Editor e = sp.edit();
-                            e.putBoolean("status" + p, true);
+                            e.putBoolean("status" + nr, true);
                             e.commit();
                             //statusSwitch="on";
                         }
                         else{
                             SharedPreferences.Editor e = sp.edit();
-                            e.putBoolean("status" + p, false);
+                            e.putBoolean("status" + nr, false);
                             e.commit();
                             //statusSwitch="off";
                         }

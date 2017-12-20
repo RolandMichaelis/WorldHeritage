@@ -33,6 +33,144 @@
             text="Beim Weltnaturerbe Wattenmeer handelt es sich um ein Gebiet von rund 11.500 Quadratkilometern entlang der Küste mit einer Länge von etwa 500 Kilometern. Das Wattenmeer steht schon seit mehr als einer Generation unter Schutz. Im deutschen und dänischen Wattenmeer wurden Nationalparks ausgewiesen, in den Niederlanden Staatliche Naturdenkmale."
             search="weltkulturerbe wattenmeer unesco"
             navi="Wattenmeer" />
+        <heritage id="9" name="Schlösser Augustusburg und Falkenlust in Brühl" registered="1984" type="C" country="de"
+            text="Die Schlösser Augustusburg und Falkenlust liegen in der Stadt Brühl im Rheinland. Das Schloss Augustusburg befindet sich im Osten der Stadt, es ist mit dem Jagdschloss Falkenlust durch eine Allee durch den weitläufigen Schlosspark verbunden."
+            search="Schlösser Augustusburg und Falkenlust in Brühl"
+            navi="Parkplatz, Max-Ernst-Allee, 50321 Brühl" />
+        <heritage id="10" name="Dom und Michaeliskirche in Hildesheim" registered="1985" type="C" country="de"
+            text="St. Michaelis und der Dom St. Mariä Himmelfahrt zu Hildesheim bei Hannover sind zwei herausragende Beispiele frühromanischer Baukunst. Die beiden Kirchenbauwerke symbolisieren die Blüte religiöser Kunst im Heiligen Römischen Reich."
+            search="UNESCO Welterbe Dom und Michaeliskirche in Hildesheim"
+            navi="Michaelisplatz 2, 31134 Hildesheim" />
+        <heritage id="11" name="Römische Baudenkmäler, Dom und Liebfrauenkirche in Trier" registered="1986" type="C" country="de"
+            text="Das im Jahr 16 v. Chr. als Augusta Treverorum gegründete Trier besticht durch die Vielzahl von in guter Qualität erhaltenen römischen Bauwerken. Auch die auf den römischen Fundamenten im Mittelalter erbauten christlichen Nachfolgebauten wurden mit in die Liste aufgenommen."
+            search="Welterbe Römische Baudenkmäler, Dom und Liebfrauenkirche in Trier"
+            navi="Trier" />
+        <heritage id="12" name="Hansestadt Lübeck" registered="1987" type="C" country="de"
+            text="Lübeck, unbestrittene Königin der Hanse, wurde im Jahre 1143 als erste „abendländische Stadt an der Ostseeküste“ gegründet und war ein leuchtendes Vorbild für die Hansestädte im Ostseeraum. Die mittelalterliche Altstadt ist eines der bedeutendsten Zeugnisse der Backsteingotik und erinnert an die große Vergangenheit als frühes Zentrum des Welthandels."
+            search="unesco welterbe hansestadt lübeck"
+            navi="Lübeck" />
+        <heritage id="13" name="Schlösser und Parks von Potsdam und Berlin" registered="1990" type="C" country="de"
+            text="Die Welterbestätte „Schlösser und Parks von Potsdam und Berlin“ ist eine Kulturlandschaft von internationalem Rang und ein inspirierender Ort für Kunst-, Architektur- und Gartenfreunde aus der ganzen Welt. Seiner geradezu paradiesischen Schönheit verdankt das einzigartige Ensemble den Beinamen „Preußisches Arkadien“."
+            search="Schlösser und Parks von Potsdam und Berlin"
+            navi="" />
+        <heritage id="14" name="Kloster Lorsch" registered="1991" type="C" country="de"
+            text="Das Kloster Lorsch war eine Benediktinerabtei in Lorsch im südhessischen Kreis Bergstraße in Deutschland. Es wurde 764 gegründet und war bis zum hohen Mittelalter ein Macht-, Geistes- und Kulturzentrum."
+            search="Kloster Lorsch"
+            navi="Nibelungenstraße, 64653 Lorsch" />
+        <heritage id="15" name="Bergwerk Rammelsberg, Altstadt von Goslar und Oberharzer Wasserwirtschaft" registered="1992" type="C" country="de"
+            text="Im Westharz befindet sich eine der größten Montanregionen in Europa. Wissenschaftlich und touristisch erschlossen und vermittelt wird sie durch die Stiftung Bergwerk Rammelsberg, Altstadt von Goslar und Oberharzer Wasserwirtschaft, die ihren Sitz in Goslar hat. "
+            search="Welterbe Bergwerk Rammelsberg, Altstadt von Goslar und Oberharzer Wasserwirtschaft"
+            navi="BERGTAL 19, 38640 GOSLAR" />
+        <heritage id="16" name="Altstadt von Bamberg" registered="1993" type="C" country="de"
+            text="Die Bamberger Altstadt repräsentiert in einzigartiger Weise die auf frühmittelalterlicher Grundstruktur entwickelte mitteleuropäische Stadt. Das Bamberger Weltkulturerbe besteht aus Bergstadt, Inselstadt und Gärtnerstadt – eine einzigartige Mischung historischer Stadtstrukturen."
+            search="altstadt von bamberg weltkulturerbe"
+            navi="96047 Bamberg" />
+        <heritage id="17" name="Klosteranlage Maulbronn" registered="1993" type="C" country="de"
+            text="Das Kloster Maulbronn ist eine ehemalige Zisterzienserabtei in der Ortsmitte von Maulbronn. Kleinstadt und Kloster liegen am Südwestrand des Strombergs, der sich im südlich des Odenwalds und nördlich des Schwarzwalds gelegenen Kraichgau erhebt."
+            search="weltkulturerbe Klosteranlage Maulbronn"
+            navi="Klosterhof 5, 75433 Maulbronn" />
+        <heritage id="18" name="Stiftskirche, Schloss und Altstadt von Quedlinburg" registered="1994" type="C" country="de"
+            text="In der historischen Altstadt mit ihren kopfsteingepflasterten Straßen, verwinkelten Gassen und kleinen Plätzen befinden sich gut 2000 Fachwerkhäuser aus acht Jahrhunderten. Am Markt liegt das Renaissance-Rathaus mit der Roland-Statue, südlich davon der Schlossberg mit der romanischen Stiftskirche und dem Domschatz."
+            search="Stiftskirche, Schloss und Altstadt von Quedlinburg"
+            navi="Markt 1, 06484 Quedlinburg" />
+        <heritage id="19" name="Völklinger Hütte" registered="1994" type="C" country="de"
+            text="Die Völklinger Hütte ist ein 1873 gegründetes ehemaliges Eisenwerk in der saarländischen Stadt Völklingen. Es wurde 1986 stillgelegt. 1994 erhob die UNESCO die Roheisenerzeugung der Völklinger Hütte als Industriedenkmal in den Rang eines Weltkulturerbes der Menschheit."
+            search="Weltkulturerbe Völklinger Hütte"
+            navi="Rathausstraße 75-79, 66333 Völklingen" />
+        <heritage id="20" name="Kölner Dom" registered="1996" type="C" country="de"
+            text="Der Kölner Dom (eigentlich die Hohe Domkirche Sankt Petrus) ist eine römisch-katholische Kirche in Köln unter dem Patrozinium des Apostels Petrus.[1] Der Kölner Dom ist die Kathedrale des Erzbistums Köln sowie Metropolitankirche der Kirchenprovinz Köln und war bis Ende 2009 auch Pfarrkirche der Domgemeinde."
+            search="Kölner Dom"
+            navi="Domkloster 4, 50667 Köln" />
+        <heritage id="21" name="Luthergedenkstätten in Eisleben und Wittenberg" registered="1996" type="C" country="de"
+            text="Noch heute, rund 500 Jahre nach der Reformation und dem Beginn der Neuzeit, kann in Eisleben und der Lutherstadt Wittenberg das Flair dieser Zeit unmittelbar erlebt werden. Hier befinden sich einzigartige Luthergedenkstätten wie das Geburts- und Sterbehaus des Reformators, das Kloster, in dem er wohnte, sowie die Kirche, an die er seine 95 Thesen schlug."
+            search="weltkulturerbe Luthergedenkstätten in Eisleben und Wittenberg"
+            navi="Andreaskirchplatz 10, 06295 Lutherstadt Eisleben" />
+        <heritage id="22" name="Klassisches Weimar" registered="1998" type="C" country="de"
+            text="Das Ensemble „Klassisches Weimar“ stellt ein einzigartiges Zeugnis einer vergangenen, doch nachwirkenden Kulturepoche dar - der Weimarer Klassik, der durch die europäische bürgerliche Aufklärung vorbereiteten höfischen und bürgerlichen Kultur in einer mitteleuropäischen Residenz um 1800."
+            search="Weltkulturerbe Klassisches Weimar"
+            navi="Weimar" />
+        <heritage id="23" name="Wartburg" registered="1999" type="C" country="de"
+            text="Die Wartburg ist eine Burg in Thüringen, über der Stadt Eisenach am nordwestlichen Ende des Thüringer Waldes gelegen, 411 m ü. NN. Sie wurde um 1067 von Ludwig dem Springer gegründet und gehört seit 1999 zum UNESCO-Weltkulturerbe."
+            search="weltkulturerbe wartburg"
+            navi="Auf der Wartburg 1, 99817 Eisenach" />
+        <heritage id="24" name="Museumsinsel Berlin" registered="1999" type="C" country="de"
+            text="Die Museumsinsel ist die nördliche Spitze der Spreeinsel in der historischen Mitte von Berlin. Sie ist die Keimzelle der Berliner Museumslandschaft und mit ihren fünf Museen heute ein vielbesuchter touristischer Anlaufpunkt und einer der wichtigsten Museumskomplexe der Welt."
+            search="weltkulturerbe museumsinsel berlin"
+            navi="Bodestraße 1-3, 10178 Berlin" />
+        <heritage id="25" name="Gartenreich Dessau-Wörlitz" registered="2000" type="C" country="de"
+            text="»Hier ists jetzt unendlich schön. Mich hats gestern Abend wie wir durch die Seen Canäle und Wäldgen schlichen sehr gerührt wie die Götter dem Fürsten erlaubt haben einen Traum um sich herum zu schaffen…«, schrieb einst Goethe über das Gartenreich Dessau-Wörlitz an Charlotte von Stein."
+            search="weltkulturerbe gartenreich dessau-wörlitz"
+            navi="Alter Wall 99, 06786 Oranienbaum-Wörlitz" />
+        <heritage id="26" name="Klosterinsel Reichenau" registered="2000" type="C" country="de"
+            text="Drei romanische Kirchen aus dem 9. bis 11. Jahrhundert zeugen von der Bedeutung der ehemaligen Benediktinerabtei auf der Klosterinsel Reichenau in Baden-Württemberg . 724 gegründet, entwickelte sie sich schnell zu einem der wichtigsten Klöster im süddeutschen Raum."
+            search="klosterinsel reichenau weltkulturerbe"
+            navi="Pirminstraße 145 • D-78479 Insel Reichenau" />
+        <heritage id="27" name="Industriekomplex Zeche Zollverein in Essen" registered="2001" type="C" country="de"
+            text="Die Zeche Zollverein war ein von 1851 bis 1986 aktives Steinkohlebergwerk in Essen. Sie ist heute ein Architektur- und Industriedenkmal. Gemeinsam mit der unmittelbar benachbarten Kokerei Zollverein gehören die Schachtanlagen 12 und 1/2/8 der Zeche seit 2001 zum Welterbe der UNESCO."
+            search="industriekomplex zeche zollverein in essen weltkulturerbe"
+            navi="Gelsenkirchener Str. 181, 45309 Essen" />
+        <heritage id="28" name="Altstädte von Stralsund und Wismar" registered="2002" type="C" country="de"
+            text="Sowohl Stralsund als auch Wismar gehörten zum mittelalterlichen Handelsbund der Hanse. Sie erlebten im 14. Jahrhundert ihre Blütezeit. Über die Jahrhunderte blieben viele Bauten erhalten. In beiden Städten galt über 600 Jahre das Lübecker Baurecht, das Bestandteil des lübischen Stadtrechts war."
+            search="weltkulturerbe Altstädte von Stralsund und Wismar"
+            navi="Stralsund" />
+        <heritage id="29" name="Oberes Mittelrheintal" registered="2002" type="C" country="de"
+            text="Das Welterbegebiet erstreckt sich von Bingen/Rüdesheim bis Koblenz auf einer Länge von 67 km entlang des Durchbruchstals des Rheins durch das Rheinische Schiefergebirge."
+            search="welterbe oberes mittelrheintal"
+            navi="Welterbe Kulturlandschaft Oberes Mittelrheintal" />
+        <heritage id="30" name="Rathaus und Roland in Bremen" registered="2004" type="C" country="de"
+            text="Es ist wohl eines der schönsten Rathäuser Deutschlands. Zusammen mit dem Roland, der „Freiheitsstatue“ der Bremer, steht es damals wie heute für den Stolz der Bremer auf ihre Stadt, ihre Freiheit und ihre Souveränität."
+            search="weltkulturerbe Rathaus und Roland in Bremen"
+            navi="am markt 21, bremen" />
+        <heritage id="31" name="Muskauer Park (Park Muzakowski)" registered="2004" type="C" country="xx"
+            text="Der Park liegt zum Großteil östlich der Lausitzer Neiße und nördlich der Stadt Łęknica (Lugknitz) in der Woiwodschaft Lubuskie (Lebus). Ein Drittel des Parks gehört zum Gebiet der sächsischen Stadt Bad Muskau. Beide Teile sind bereits seit 2003 durch eine wiederaufgebaute hölzerne Doppelbrücke verbunden."
+            search="weltkulturerbe Muskauer Park"
+            navi="02953 Bad Muskau" />
+        <heritage id="32" name="Grenzen des Römischen Reiches" registered="2005" type="C" country="xx"
+            text="Obergermanisch-Raetischer Limes: 2005 Erweiterung des seit 1987 in der Liste verzeichneten Hadrianswalls, Großbritannien; 2008 um den Antoninuswall in Schottland erweitert. Der Limes verläuft von Bad Hönningen/Rheinbrohl am Rhein bis zum Kastell Eining an der Donau, kurz vor Regensburg."
+            search="weltkulturerbe obergermanisch-raetischer limes"
+            navi="obergermanisch-raetische limes" />
+        <heritage id="33" name="Altstadt von Regensburg mit Stadtamhof" registered="2006" type="C" country="de"
+            text="Regensburg war im Hohen Mittelalter ein politisches Zentrum des Heiligen Römischen Reiches Deutscher Nation und ein blühendes europäisches Handelszentrum. Der Bestand an originaler romanischer und gotischer Architektur ist, da die Regensburger Altstadt von den Zerstörungen des Zweiten Weltkriegs weitestgehend verschont geblieben ist, seit 1945 einzigartig."
+            search="weltkulturerbe Altstadt von Regensburg mit Stadtamhof"
+            navi="Regensburg" />
+        <heritage id="34" name="Siedlungen der Berliner Moderne" registered="2008" type="C" country="de"
+            text="Die Siedlungen in den heutigen Ortsteilen Bohnsdorf, Britz, Charlottenburg-Nord, Prenzlauer Berg, Reinickendorf und Wedding wurden stilbildend für den Sozialen Wohnungsbau in der durch Wohnungsnot geprägten Zeit nach dem Ersten Weltkrieg. Mit ihren klaren und neuen Formen sowie dem sozialen Anspruch wurden die Siedlungen bestimmend für die Architektur und den Städtebau des 20. Jahrhunderts."
+            search="weltkulturerbe Siedlungen der Berliner Moderne"
+            navi="Siedlungen der Berliner Moderne" />
+        <heritage id="35" name="Fagus-Werk in Alfeld" registered="2011" type="C" country="de"
+            text="Das Fagus-Werk ist eine Fabrikanlage in der südniedersächsischen Kleinstadt Alfeld an der Leine und Sitz der Firmen Fagus-GreCon und Weinig Grecon. Das Werk wurde 1911 von dem Architekten Walter Gropius und dessen Mitarbeiter Adolf Meyer entworfen und steht als eines der ersten Beispiele der architektonischen Moderne seit 1946 unter Denkmalschutz."
+            search="Fagus-Werk in Alfeld"
+            navi="Hannoversche Str. 58, 31061 Alfeld" />
+        <heritage id="36" name="Prähistorische Pfahlbauten um die Alpen" registered="200" type="C" country="xx"
+            text="Unter der Bezeichnung Prähistorische Pfahlbauten um die Alpen, vom 5. bis zum 1. Jahrtausend v. Chr., führt die UNESCO 111 Fundstellen prähistorischer Pfahlbauten in der Schweiz, in Deutschland, Österreich, Italien, Frankreich und Slowenien als Weltkulturerbe."
+            search="Prähistorische Pfahlbauten um die Alpen"
+            navi="Allensbach-Strandbad" />
+        <heritage id="37" name="Markgräfliches Opernhaus Bayreuth" registered="2012" type="C" country="de"
+            text="Das Markgräfliche Opernhaus, eines der schönsten Barocktheater Europas, zeugt noch heute vom Leben und Wirken sowie den künstlerischen Neigungen der Markgräfin Wilhelmine. Die preußische Prinzessin und Lieblingsschwester Friedrichs des Großen, eine der bedeutendsten Frauengestalten im Deutschland des 18. Jahrhunderts, machte aus der Residenzstadt Bayreuth eine strahlende Kulturmetropole."
+            search="weltkulturerbe Markgräfliches Opernhaus Bayreuth"
+            navi="" />
+        <heritage id="38" name="Bergpark Wilhelmshöhe" registered="2013" type="C" country="de"
+            text="Der Bergpark Wilhelmshöhe in der nordhessischen Großstadt Kassel ist mit einer Fläche von 2,4 Quadratkilometern der größte Bergpark in Europa und ein Landschaftspark von Weltgeltung. Der Park ist insbesondere durch die in ihm befindlichen Wasserspiele, den Herkules mit gleichnamiger Statue, das Schloss Wilhelmshöhe und die künstliche Ruine Löwenburg bekannt."
+            search="Bergpark Wilhelmshöhe"
+            navi="34131 Kassel" />
+        <heritage id="39" name="Karolingisches Westwerk und Civitas Corvey" registered="2014" type="C" country="de"
+            text="Das ehemalige Benediktinerkloster Corvey im westfälischen Höxter ist ein kunsthistorisches Kleinod von unschätzbarem Wert: Die ehemalige reichsunmittelbare Abtei mit ihrer fast 1.200-jährigen Geschichte gilt als eine der bedeutendsten Klostergründungen im mittelalterlichen Deutschland."
+            search="Karolingisches Westwerk und Civitas Corvey"
+            navi="Schloss Corvey, 37671 Höxter" />
+        <heritage id="40" name="Hamburger Speicherstadt und Kontorhausviertel mit Chilehaus" registered="2015" type="C" country="de"
+            text="Hier ist die moderne europäische City entstanden: Die historische Speicherstadt und das Kontorhausviertel mit dem legendären Chilehaus stehen für den Aufstieg Hamburgs zur Weltstadt – und präsentieren sich heute als lebendiges Kulturquartier. Sie umfasst das Gebiet zwischen Baumwall und Oberhafen."
+            search="Hamburger Speicherstadt und Kontorhausviertel mit Chilehaus"
+            navi="Speicherstadt 20457 Hamburg" />
+        <heritage id="41" name="Das architektonische Werk von Le Corbusier – ein herausragender Beitrag zur „Modernen Bewegung“" registered="2016" type="C" country="xx"
+            text="Unter der Bezeichnung Das architektonische Werk von Le Corbusier – ein herausragender Beitrag zur „Modernen Bewegung“ fasst die UNESCO 17 herausragende Werke des schweizerisch-französischen Architekten und Stadtplaners Le Corbusier zu einem transnationalen, seriellen Weltkulturerbe zusammen."
+            search="Das architektonische Werk von Le Corbusier – ein herausragender Beitrag zur „Modernen Bewegung“"
+            navi="Weißenhofsiedlung" />
+        <heritage id="42" name="Höhlen und Eiszeitkunst im Schwäbischen Jura" registered="2017" type="C" country="xx"
+            text="Die Stätte umfasst sechs Höhlen auf der Schwäbischen Alb, in denen die ältesten Artefakte menschlichen Kunstschaffens gefunden worden sind. Die häufig aus Mammutelfenbein geschnitzten Figuren und Musikinstrumente stammen aus dem Aurignacien, von 40.000 v. Chr. bis 31.000 v. Chr., als der anatomisch moderne Mensch (Homo sapiens) sich ausbreitete und der Neandertaler verschwand."
+            search="weltkulturerbe Höhlen und Eiszeitkunst im Schwäbischen Jura"
+            navi="Bocksteinhöhle Lonetal, Öllingen" />
+
+
 
 
     </heritages>
