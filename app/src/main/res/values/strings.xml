@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WorldHeritage</string>
+    <string name="title_home">WorldHeritage</string>
+    <string name="title_culture">Kultur</string>
+    <string name="title_nature">Natur</string>
+    <string name="title_visited">Besucht</string>
+    <string name="title_in_progress">Offen</string>
+    <string name="dialog_title">Dialog</string>
+</resources>
