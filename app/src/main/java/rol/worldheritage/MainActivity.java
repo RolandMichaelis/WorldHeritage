@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Paint;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
     private rol.worldheritage.heritagePack heritagePack;
     Switch simpleSwitch;
     public String test;
+    MyAdapter myAdapter;
+
 
     ListView simpleList;
     ArrayList<Item> heritageList =new ArrayList<>();
@@ -53,11 +56,34 @@ public class MainActivity extends AppCompatActivity {
 
         draw_bottom_line();
         list_calc();
+        myAdapter = new MyAdapter(this, R.layout.grid_view_items, heritageList);
+        simpleList.setAdapter(myAdapter);
+        simpleList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                dialog_login(position);
+
+                //Toast.makeText(getApplicationContext(), "test: "+test, Toast.LENGTH_SHORT).show();
+
+            }
+
+        });
 
     }
     public void onClick(final View view) {
         SharedPreferences sp = getPreferences(MODE_PRIVATE);
         SharedPreferences.Editor e = sp.edit();
+/*        if(view.getId()==R.id.imageGoogle) {
+            Toast.makeText(getApplicationContext(), "imageGoogle: ", Toast.LENGTH_SHORT).show();
+
+
+        }
+        if(view.getId()==R.id.imageNavi) {
+            Toast.makeText(getApplicationContext(), "imageNavi: ", Toast.LENGTH_SHORT).show();
+
+
+        }*/
         if(view.getId()==R.id.ic_logo1) {
             boolean but1 = sp.getBoolean("but1", false);
             if(!but1) {
@@ -206,19 +232,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         }
-        MyAdapter myAdapter = new MyAdapter(this, R.layout.grid_view_items, heritageList);
-        simpleList.setAdapter(myAdapter);
-        simpleList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                dialog_login(position);
-
-                //Toast.makeText(getApplicationContext(), "test: "+test, Toast.LENGTH_SHORT).show();
-
-            }
-
-        });
 
     }
 
@@ -268,6 +281,8 @@ public class MainActivity extends AppCompatActivity {
 
                         dialog.cancel();
                         list_calc();
+                        myAdapter.notifyDataSetChanged();
+
                     }
                 });
 
@@ -284,15 +299,71 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        /*dialogsViewNL.findViewById(R.id.forgot_pw).setOnClickListener(new View.OnClickListener() {
+        dialogsViewNL.findViewById(R.id.imageGoogle).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(MainActivity.this, getString(R.string.send_password), Toast.LENGTH_LONG).show();
-                editTextEmail=email.getText().toString().toLowerCase();
-                serverForgotPassword(editTextEmail);
-                //alertDialog.dismiss();
+                Heritage w = heritagePack.getHeritages().get(p);
+                //Toast.makeText(MainActivity.this, "imageGoogle", Toast.LENGTH_LONG).show();
+                Uri webpageUri = Uri.parse("http://www.google.de/search?q="+w.getSearch());
+
+                // Erzeugen eines impliziten View-Intents mit der Data URI-Information
+                Intent intent = new Intent(Intent.ACTION_VIEW, webpageUri);
+
+                // Prüfen ob eine Web-App auf dem Android Gerät installiert ist
+                // und Starten der App mit dem oben erzeugten impliziten View-Intent
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intent);
+                } else {
+                    String LOG_TAG = MainActivity.class.getSimpleName();
+                    Log.d(LOG_TAG, "Keine Web-App installiert!");
+                }
+
             }
-        });*/
+        });
+        dialogsViewNL.findViewById(R.id.imageWiki).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Heritage w = heritagePack.getHeritages().get(p);
+                //Toast.makeText(MainActivity.this, "imageGoogle", Toast.LENGTH_LONG).show();
+                Uri webpageUri = Uri.parse("http://de.wikipedia.org/w/index.php?search="+w.getWiki());
+
+                // Erzeugen eines impliziten View-Intents mit der Data URI-Information
+                Intent intent = new Intent(Intent.ACTION_VIEW, webpageUri);
+
+                // Prüfen ob eine Web-App auf dem Android Gerät installiert ist
+                // und Starten der App mit dem oben erzeugten impliziten View-Intent
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intent);
+                } else {
+                    String LOG_TAG = MainActivity.class.getSimpleName();
+                    Log.d(LOG_TAG, "Keine Web-App installiert!");
+                }
+
+            }
+        });
+        dialogsViewNL.findViewById(R.id.imageNavi).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Heritage w = heritagePack.getHeritages().get(p);
+                //Toast.makeText(MainActivity.this, "imageGoogle", Toast.LENGTH_LONG).show();
+                Uri geoLocation = Uri.parse("geo:0,0?q="+w.getNavi());
+
+                // Erzeugen eines impliziten View-Intents mit der Data URI-Information
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(geoLocation);
+
+
+                // Prüfen ob eine Web-App auf dem Android Gerät installiert ist
+                // und Starten der App mit dem oben erzeugten impliziten View-Intent
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intent);
+                } else {
+                    String LOG_TAG = MainActivity.class.getSimpleName();
+                    Log.d(LOG_TAG, "Keine Web-App installiert!");
+                }
+
+            }
+        });
         // show it
         alertDialog.show();
 

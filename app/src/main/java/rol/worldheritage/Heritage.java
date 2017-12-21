@@ -31,6 +31,8 @@ public class Heritage {
 
     @Attribute
     private String navi;
+    @Attribute
+    private String wiki;
 
     public int getId() {
         return id;
@@ -62,6 +64,9 @@ public class Heritage {
 
     public String getNavi() {
         return navi;
+    }
+    public String getWiki() {
+        return wiki;
     }
 
 }
