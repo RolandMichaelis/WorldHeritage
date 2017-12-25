@@ -121,6 +121,8 @@ public class MainActivity extends AppCompatActivity {
             e.commit();
         }
         draw_bottom_line();
+        myAdapter.notifyDataSetChanged();
+
     }
     private void draw_bottom_line(){
         SharedPreferences sp = getPreferences(MODE_PRIVATE);
@@ -178,6 +180,7 @@ public class MainActivity extends AppCompatActivity {
             image2.setImageResource(R.drawable.ic_visited);
         }
         list_calc();
+
     }
     private void list_calc() {
         SharedPreferences sp = getPreferences(MODE_PRIVATE);
